@@ -1,5 +1,4 @@
 Note:
-
 change the credentials in schedule_jobs_in_postgres();
 make sure to disable all the triggers in templatedb
 
@@ -40,4 +39,4 @@ Version 0.5.0: User dependencies removed.
 
 Dependent Module:
 
-pip install cachetools certifi charset-normalizer cx_Oracle filelock google-auth google-auth-oauthlib gspread httplib2 idna logging numpy oauth2client oauthlib pandas pip psycopg2 pyasn1 pyasn1_modules pyparsing python-dateutil pytz requests requests-oauthlib rsa six tzdata urllib3
+pip install oauth2client pandas psycopg2 cx_Oracle filelock

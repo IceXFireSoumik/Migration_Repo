@@ -214,7 +214,8 @@ if __name__ == '__main__':
         if validate_columns_result == 0:
             current_user = os.getenv('USERNAME')
             status_file_path = f'C:\\Users\\{current_user}\\Desktop\\migration_status\\credentials.json'
-            gsheet.save_json_to_file(all_credentials,status_file_path)
+            gsheet.save_json_to_file(all_credentials, r'C:\Users\siddhartha.s\Desktop\migration_status\credentials.json')
+            # gsheet.save_json_to_file(all_credentials, r'C:\Users\sultan.m\Desktop\migration_status\credentials.json')
             credentials = gsheet.load_credentials_from_json(private_ip)
             print(credentials)
             if credentials is not None:

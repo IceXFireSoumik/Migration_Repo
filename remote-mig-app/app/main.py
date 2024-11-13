@@ -26,7 +26,7 @@ def update_status(sheet_ip, status_message):
     logging.info(status_message)
 
 def update_status_in_file(process_id, status, status_message):
-    filepath = r'C:\Users\ginesysdevops\Desktop\migration_status\status.json'
+    filepath = r'C:\Users\siddhartha.s\Desktop\migration_status\status.json'
     try:
         with open(filepath,'r') as file:
             content = json.load(file)
